@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Online Food Delivery Website In India | myOnlineMeal.com</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" media="screen and (max-width :1410px)" href="CSS/phone.css">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Finlandica:ital@1&display=swap"
+    rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<style>
+  #home::before {
+    content: "";
+    background: url("img/bg1.jpg") no-repeat center center/cover;
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0px;
+    left: 0px;
+  }
+
+  #client-section::before {
+    content: "";
+    position: absolute;
+    background: url("img/background2.jpg");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+  }
+
+  #contact::before {
+    content: "";
+    position: absolute;
+    background: url("img/contactus.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+  }
+</style>
+
+<body>
+  <nav id="navbar">
+    <div id="logo">
+      <img src="img/mainlogo-removebg-preview (1).png" alt="myOnlinemeal.com" />
+    </div>
+    <ul>
+      <li class="item"><a href="#home">Home</a></li>
+      <li class="item"><a href="#services-container">Services</a></li>
+      <li class="item"><a href="#client-section"> Our Clients</a></li>
+      <li class="item"><a href="#contact">Contact Us</a></li>
+      <!-- <li class="item"><a href="#"></a></li> -->
+    </ul>
+  </nav>
+  <section id="home">
+    <h1 class="h-primary">Welcome to MyOnlinemeal</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente
+      veritatis corrupti ad hic placeat aliquam tempora, necessitatibus
+      dolorem similique Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio sapiente
+      veritatis corrupti ad hic placeat aliquam tempora
+    </p>
+    <button class="btn">Order Now</button>
+  </section>
+  <!-- <hr> -->
+  <section id="services-container">
+    <h1 class="h-secondary">
+      Our services
+    </h1>
+    <div id="services">
+      <div class="box">
+        <img src="img/pizzacadrd.png" alt="">
+        <h2 class="h-secondary center">Food catering</h2>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores atque architecto ab Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Eius quo soluta ipsum nam est accusamus odit vel illo,
+          officiis placeat!
+          doloribus odit sit,
+          quidem tempore quia eaque molestiae incidunt reiciendis hic totam saepe molestias veritatis dolores maxime ex
+          dolore. Commodi, nemo quod.</p>
+      </div>
+      <div class="box">
+        <img src="img/foodplate.png" alt="">
+        <h2 class="h-secondary center">Bulk Ordering</h2>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores atque architecto ab Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum optio ex laborum beatae earum illum
+          pariatur est expedita nisi?
+          doloribus odit sit,
+          quidem tempore quia eaque molestiae incidunt reiciendis hic totam saepe molestias veritatis dolores maxime ex
+          dolore. Commodi, nemo quod.</p>
+      </div>
+      <div class="box" id="box3">
+        <img src="img/fooddelivery.png" alt="">
+        <h2 class="h-secondary center">Food Ordering</h2>
+        <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores atque architecto ab Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Earum veritatis quod facere tempore optio deleniti quia
+          repudiandae! Pariatur, dolores enim?
+          doloribus odit sit,
+          quidem tempore quia eaque molestiae incidunt reiciendis hic totam saepe molestias veritatis dolores maxime ex
+          dolore. Commodi, nemo quod.</p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <section id="client-section">
+    <h1 class="h-primary center">Our Clients</h1>
+    <div id="clients">
+      <div class="client-item">
+        <img src="img/applelogo-removebg-preview.png" alt="Our client">
+      </div>
+      <div class="client-item">
+        <img src="img/hplogo.png" alt="Our client">
+      </div>
+      <div class="client-item">
+        <img src="img/microsoftlogo.png" alt="Our client">
+      </div>
+      <div class="client-item">
+        <img src="img/skypelogo.png" alt="Our client">
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h1 class="h-primary center">
+      Contact Us
+    </h1>
+    <div id="contact-box">
+      <form action="">
+        <div class="form-goup">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-goup">
+          <label for="Email">Email:</label>
+          <input type="email" name="Email" id="Email" placeholder="Enter your Email">
+        </div>
+        <div class="form-goup">
+          <label for="phone-number">phone number:</label>
+          <input type="phone" name="phone-number" id="phone-number" placeholder="Enter your phone number">
+        </div>
+        <div class="form-goup">
+          <label for="Message">Message:</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="center">
+      copyright &copy; www.myOnlineMeal.com All rights reserved
+    </div>
+  </footer>
+</body>
+
+</html>
